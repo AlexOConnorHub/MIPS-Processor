@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Sun Dec 18 18:40:28 2022
+Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Revision Name : Linked
+Top-level Entity Name : Linked
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 1054
+Total pins : 178
+Total virtual pins : 0
+Total block memory bits : 8,192
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

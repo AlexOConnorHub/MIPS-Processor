@@ -1,0 +1,20 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY counter IS
+	PORT(	PC_IN				: IN  STD_LOGIC_VECTOR (31 DOWNTO 0);
+			clock,reset		: IN	STD_LOGIC;
+			PC_OUT			: OUT STD_LOGIC_VECTOR (31 DOWNTO 0));
+END counter;
+
+ARCHITECTURE hashcat OF counter IS
+BEGIN
+	PROCESS(clock, reset)
+	BEGIN
+		IF (reset = '0') THEN
+			PC_OUT <= x"00000000";
+		ELSIF (RISING_EDGE(clock)) THEN
+			PC_OUT  <= PC_IN;	
+		END IF;
+	END PROCESS;
+END hashcat;
